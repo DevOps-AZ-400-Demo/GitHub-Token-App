@@ -33,8 +33,8 @@ steps:
     SonarCloud: 'SonarCloud'
     organization: 'dev-organization1999'
     scannerMode: 'MSBuild'
-    projectKey: 'Agile Project'
-    projectName: 'Agile Project'
+    projectKey: 'AgileProject'
+    projectName: 'AgileProject'
 
 - task: SonarCloudAnalyze@1
   inputs:
