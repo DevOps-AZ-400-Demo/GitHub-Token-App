@@ -35,7 +35,6 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'AgileProject'
     projectName: 'AgileProject'
-
 - task: SonarCloudAnalyze@1
 
 - task: SonarCloudPublish@1
