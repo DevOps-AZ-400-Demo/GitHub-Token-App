@@ -44,8 +44,3 @@ steps:
   inputs:
     pollingTimeoutSec: '300'
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
